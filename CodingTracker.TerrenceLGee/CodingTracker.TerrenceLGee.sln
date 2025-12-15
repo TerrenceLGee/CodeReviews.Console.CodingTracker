@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingTracker.TerrenceLGee", "CodingTracker.TerrenceLGee\CodingTracker.TerrenceLGee.csproj", "{6BC3C205-8584-4D5A-BD6B-9330C9A3F6D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingTracker.TerrenceLGee.Tests", "CodingTracker.TerrenceLGee.Tests\CodingTracker.TerrenceLGee.Tests.csproj", "{EADAFC70-D279-425F-9377-0591AC5C2EE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BC3C205-8584-4D5A-BD6B-9330C9A3F6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC3C205-8584-4D5A-BD6B-9330C9A3F6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC3C205-8584-4D5A-BD6B-9330C9A3F6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC3C205-8584-4D5A-BD6B-9330C9A3F6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EADAFC70-D279-425F-9377-0591AC5C2EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EADAFC70-D279-425F-9377-0591AC5C2EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EADAFC70-D279-425F-9377-0591AC5C2EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EADAFC70-D279-425F-9377-0591AC5C2EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
