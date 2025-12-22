@@ -69,22 +69,25 @@ public static class InputHelpers
                 prompt.AddChoice(Choices.Previous);
             }
 
-            prompt.AddChoice(Choices.Exit);
 
             if (pageIndex < pageCount - 1)
             {
                 prompt.AddChoice(Choices.Next);
             }
+            
+            prompt.AddChoice(Choices.Exit);
 
             var choice = AnsiConsole.Prompt(prompt);
 
             if (choice == Choices.Next && pageIndex < pageCount - 1)
             {
                 pageIndex++;
+                Console.Clear();
             }
             else if (choice == Choices.Previous && pageIndex > 0)
             {
                 pageIndex--;
+                Console.Clear();
             }
             else
             {
